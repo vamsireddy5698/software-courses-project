@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color:black;
+  padding: 20px;
+  font-family: Arial;
+
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 18px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 15px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1 style="color:white">Image Gallery</h1>
+<hr>
+
+<h2 style="color:white">Software trending Courses</h2>
+<p style="color:white">Software Courses images with content.</p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="aiimg.jpg" alt="ai" style="width:100%">
+      <h3>Artificial Intelligence</h3>
+      <p>Artificial Intelligence (AI) is the branch of computer sciences that emphasizes the development of intelligence machines, thinking and working like humans. </p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="bdimg.jpg" alt="bdimg" style="width:100%">
+      <h3>Big Data</h3>
+      <p>Bigdata basically refers to huge amount of data that cannot be stored and processed using traditional approach.The following tools used to handle Bigdata ?1.Hadoop
+        2.Hive
+
+</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="iotimg.jpg" alt="iot" style="width:100%">
+      <h3>Internet Of Things</h3>
+      <p>The Internet of Things is simply "A network of Internet connected objects able to collect and exchange data." It is commonly abbreviated as IoT. </p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="rpaimg.jpg" alt="rpaimg" style="width:100%">
+      <h3>Robotic Process Automation</h3>
+      <p>Robotic process automation (RPA) refers to software that can be easily programmed to do basic tasks across applications just as human workers do.</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <img src="fsimg.jpg" alt="full stack" style="width:100%">
+  <h3>Full Stack Developer:</h3>
+  <p>A full stack web developer is a person who can develop both client and server software. In addition to mastering HTML and CSS, he/she also knows how to: Program a browser (like using JavaScript, jQuery, Angular, or Vue)</p>
+  <p>front end development (the visible parts of a website or app)<br>
+back end development (the “under the hood” databases and infrastructure)</p>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
+
