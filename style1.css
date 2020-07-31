@@ -1,0 +1,32 @@
+body{
+	background-image:url("coursesimg.jpg");
+	background-size: fixed;
+	margin-top: 10px;
+}
+
+
+
+
+.left{
+	background-color: violet;
+	font-size: 30px;
+	padding: 5px;
+	margin: auto;
+
+	
+
+}
+.right{
+	background-color:#08ED0D;
+	font-size: 30px;
+	padding: 5px;
+	margin: auto;
+	
+
+}
+div ul a:hover{
+background-color:white;
+color:#10eadc;
+font-size: 30px;
+}
+

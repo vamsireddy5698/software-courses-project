@@ -1,0 +1,105 @@
+*{
+	margin:0;
+	padding: 0;
+	background-color:#08EBCD;
+}
+.header
+{
+	height: 100vh;
+}
+.navbar-style
+{
+	box-shadow: 0 5px 10px #efefef;
+}
+.logo
+{
+	height:52px;
+	padding: 3px 10px;
+}
+.icon-bar
+{
+	background:  darkorange;
+}
+li a{
+	color:black;
+	font-size: 18px;
+}
+.big-text{
+	font-size: 42px;
+	margin:20px 0;
+	color:#F509E1;
+}
+a.btn{
+	margin: 30px 10px;
+	width: 150px;
+	padding:10px;
+	border-radius:20px;
+
+}
+.mainimg {
+  border-radius: 60%;
+  height:430px;
+  width: 460px;
+  
+  box-shadow: 4px 4px 4px 4px white;
+  padding: 5px;
+
+}
+.icon{
+	width: 250px;
+	height:100px;
+}
+
+
+a.btn:hover
+{
+	background:darkorange;
+	border:none;
+	color:3fff;
+	box-shadow: 5px 5px 10px #999;
+	transition: 0.3s;
+}
+.banner-info,.banner-image{
+	margin: 30px 0;
+}
+
+/* Style all font awesome icons */
+
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.8;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #EB0BD3;
+  color: white;
+}
+
+
+div a h1:hover{
+	font-size: 37px;
+	transition: 0.3s;
+
+}
